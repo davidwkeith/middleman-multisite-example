@@ -15,3 +15,11 @@ Because of those two requirements, it is best to place both the `layouts` and `p
         /partials/
         /support/
         /www/
+
+
+## Preview & Build
+
+    rake preview[site-name]
+    rake build[site-name]
+
+`site-name` is either `www` or `support` in this case.
