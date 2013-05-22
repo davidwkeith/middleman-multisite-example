@@ -53,6 +53,12 @@ set :images_dir, 'images'
 set :partials_dir, '../partials'
 set :layout,       '../layouts/layout'
 
+# Add lib directory to Compass load paths
+compass_config do |config|
+  config.sprite_load_path << File.join(root, 'lib', 'assets')
+end
+
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
