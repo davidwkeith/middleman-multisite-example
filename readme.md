@@ -19,7 +19,7 @@ Because of those two requirements, it is best to place both the `layouts` and `p
 
 ## Preview & Build
 
-    rake preview[site-name]
-    rake build[site-name]
+    middlman preview SITE_NAME
+    middlman make SITE_NAME
 
-`site-name` is either `www` or `support` in this case.
+`SITE_NAME` is either `www` or `support` in this case.
