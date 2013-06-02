@@ -49,13 +49,13 @@ set :css_dir,    'stylesheets'
 set :js_dir,     'javascripts'
 set :images_dir, 'images'
 
-# Assumes all source dirctories are siblings
-set :partials_dir, '../partials'
-set :layout,       '../layouts/layout'
+# Assumes all source directories are siblings
+set :partials_dir, '../../lib/partials'
+set :layouts_dir,  '../../lib/layouts'
 
 # Add lib directory to Compass load paths
 compass_config do |config|
-  config.sprite_load_path << File.join(root, 'lib', 'assets')
+  config.sprite_load_path << File.join(root, 'lib', 'assets', 'images')
 end
 
 
