@@ -15,7 +15,7 @@ GEM
       sass (~> 3.1)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    ffi (1.8.1)
+    ffi (1.14.2)
     fssm (0.2.10)
     haml (4.0.3)
       tilt
